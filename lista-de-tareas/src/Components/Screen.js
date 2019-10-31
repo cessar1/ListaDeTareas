@@ -41,7 +41,7 @@ class Screen extends Component {
             value={this.state.input}
             onChange={this.handleChange}
             placeholder="Tarea"
-          ></input>
+          />
           <button disabled={this.state.input.length <= 0} type="submit">
             Agregar tarea
           </button>
